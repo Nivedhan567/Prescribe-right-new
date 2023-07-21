@@ -2,6 +2,19 @@
     text-align: center;
     margin-bottom: 50px;
 }
+.title-img{
+    margin: 0% 20%;
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+    margin-right: 100px;
+   }
+   
+   .carousel-control-next-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+   }
+
+   textarea { resize: none; }
 
 #testimonials{
     background-color: #BAFBFF;
@@ -11,8 +24,10 @@
 .title-content{
     background-color: #BAFBFF;
     padding: 50px 0;
-   
+}
 
+.pos-left{
+    padding-top: 30px;
 }
 .title-image{
     padding-left: 50px;
@@ -79,7 +94,7 @@ li{
     padding: 10px;
 }
 
-.login-label{
+.login-label,.pres-label{
     padding:10px 0;
     color: white;
     font-weight: 500;
@@ -101,9 +116,86 @@ li{
 .login-username{
     padding-top: 35px;
 }
-.login-links{
+.login-links,.patient-input-label{
     padding-top: 20px;
     color: white;
 }
+.patient-details,.patient-illness,.patient-declaration,.patient-medicines{
+    background-color:#18C5BB;
+    border: black solid;
+    padding: 50px 0;
+}
+.pres-title{
+    color: #225D61;
+    text-align: center;
+}
+.patient-details{
+    padding: 40px 40px;
+}
+.pres-label{
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.desc-label{
+    padding-top: 20px;
+    padding-left: 90px;
+    color: white;
+    font-weight: 500;
+}
+.med-text{
+    margin-top: 20px;
+}
+.description{
+    margin-left: 90px;
 
-    
+}
+.doc-dec{
+    margin-left: 55px;
+}
+
+.add-med{
+    margin: 2% 40%;
+    width: 150px;
+    background-color: #225D61;
+}
+.patient-declaration{
+    border: 0;
+}
+.dec-right{
+    padding-top: 25px;
+}
+.submit-med{
+    margin: 2% 33%;
+    width: 150px;
+    background-color: #225D61;
+}
+.hospital-name{
+    margin-top: 20px;
+}
+.patient-reg-details{
+    text-align: center;
+    background-color:#18C5BB;
+    font-weight: 600;
+    font-size: large;
+}
+.patient-data{
+    padding: 10px 0;
+}
+.patient-data-input{
+    padding-top: 25px;
+}
+
+.reg-button{
+    margin: 2% 40%;
+    width: 150px;
+    background-color: #225D61;
+    margin: 150px 0;
+}
+.pat-reg-title{
+    color: #225D61;
+    text-align: center;
+    padding: 40px 0;
+}
+input{
+    text-align: center;
+}
